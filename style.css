@@ -1,18 +1,251 @@
-*{
-
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-
-}
-
+ /* Base */
 body {
-    font-family: 'Be Vietnam Pro';
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #1C1C1C;
+  background: rgba(228, 228, 231, 1);
 }
-
 .container {
-    max-width: 1960px;
-    margin: 0 auto;
-
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
 }
+
+/* About Intro */
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+.about-text {
+  flex: 1;
+}
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555555;
+}
+.about-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Achievements */
+.achievements {
+  padding: 80px 0;
+  background: rgba(228, 228, 231, 1);
+}
+
+.achievements-header {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.achievements-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.achievements-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.achievement-card {
+  background:rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.achievement-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(255, 140, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.achievement-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.achievement-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: #1C1C1C;
+}
+.achievement-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+/* Goals */
+.goals {
+  padding: 80px 0;
+  background: rgba(228, 228, 231, 1);
+}
+.goals h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.goal-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.goal-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.goal-card img {
+  width: 36px;
+  height: 36px;
+}
+.goal-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: #1C1C1C;
+}
+.goal-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .achievements-grid,
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+  .achievements-header {
+    text-align: center;
+  }
+  .goals h2 {
+    text-align: center;
+  }
+}
+/* CTA */
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FAFAFF;
+  padding: 40px;
+  border-radius: 16px;
+  gap: 24px;
+}
+.cta-content {
+  flex: 2;
+}
+.cta-content h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1C1C1C;
+}
+.cta-content h2 .highlight {
+  color: #FF8C00;
+}
+.cta-content p {
+  font-size: 1rem;
+  color: #555555;
+  margin-top: 12px;
+}
+.cta-divider {
+  width: 2px;
+  height: 88px;
+  background: #EAEAEA;
+}
+.cta-action {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.btn-primary {
+  background: #FF8C00;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+   transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background: #e67e00;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .about-intro {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .about-image img {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .about-intro {
+    flex-direction: column;
+  }
+  .cta {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cta-divider {
+    display: none;
+  }
+  .cta-action {
+    margin-top: 24px;
+  }
+}
+
