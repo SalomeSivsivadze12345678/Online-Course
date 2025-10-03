@@ -1245,3 +1245,407 @@ body {
         margin-top: 15px;
     }
 }
+
+
+/* 2ND PAGE */
+
+/* salomes pirveli */
+.firstpart{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.fpart h2{
+    font-size: 48px;
+    width: 748px;
+    height: 144px;
+    font-weight: 600; 
+    color: #262626;
+
+}
+
+.spart h3{
+    font-size: 18px;
+    width: 748px;
+    height: 108px;
+    font-weight: 400px; 
+    color: #59595A;
+
+}
+/* salomes pirveli THE ENDDD*/
+
+
+/* salomes CARDS*/
+
+.mainc{
+
+    width: 1596px;
+    height: 1027px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.heading{
+
+    font-weight: 600;
+    font-size: 24px;
+    color: #262626;
+}
+
+.heading2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.heading2 p{
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #59595A;
+    width: 1286px;
+    height: 54px;
+
+}
+
+.heading2 a{
+
+    width: 160px;
+    height: 63px;
+    background-color: #fcfcfd;
+    border: 1px solid #f1f1f3;
+    border-radius: 8px;
+    color: #262626;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardz{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.info{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.info h3,
+.info h4{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 107px;
+    height: 43px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #59595A;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #f1f1f3;
+
+
+}
+
+.info h4{
+
+    margin-right: 1122px;
+}
+
+.info h5{
+
+    color: #262626;
+    font-weight: 500;
+    font-size: 20px;
+    width: 137px;
+
+}
+
+.curi{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 22px;
+    color: #262626;
+    width: 1496px;
+    height: 81px;
+    border: 1px solid #f1f1f3;
+    
+}
+
+.curi h1{
+
+    margin: 24px 30px 24px;
+}
+
+.culum{
+
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+    border-radius: 12px;
+    border: 1px solid #f1f1f3;
+    justify-content: space-between;
+
+}
+
+.xinkali{
+display: flex;
+flex-direction: column;
+text-align:left;
+width: 192.2px;
+margin-bottom: 15px;
+}
+
+
+/* ========================================= */
+/* Media Query for Tablet (Max-width: 1024px) */
+/* ========================================= */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 960px;
+        padding: 0 20px;
+    }
+
+    /* Description Section Adjustments */
+    .firstpart {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .fpart h2,
+    .spart p {
+        width: auto; /* Allow content to take max-width of container */
+        height: auto;
+        padding: 0 10px;
+        font-size: 36px; /* Reduced font size */
+    }
+
+    .spart p {
+        font-size: 16px;
+    }
+
+    /* Card Section Adjustments */
+    .mainc {
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .heading {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .heading2 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .heading2 p {
+        width: auto;
+        height: auto;
+        font-size: 16px;
+    }
+
+    .heading2 a {
+        width: 100%; /* Full width button */
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .cardz {
+        flex-wrap: wrap; /* Allow images to wrap */
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .cardz img {
+        max-width: calc(50% - 15px); /* Max two images per row */
+        height: auto;
+    }
+
+    /* Info Section Adjustments */
+    .info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 20px;
+        margin-bottom: 30px;
+    }
+
+    .info h3,
+    .info h4 {
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        margin-right: 0; /* Remove fixed margin */
+    }
+
+    .info h4 {
+        margin-right: 0; /* Override previous large margin */
+    }
+    
+    .info h5 {
+        width: auto;
+        font-size: 18px;
+        text-align: center;
+        flex-basis: 100%; /* Author takes full row */
+    }
+
+    /* Curriculum Section Adjustments */
+    .curi {
+        width: auto;
+        height: auto;
+        font-size: 20px;
+    }
+    
+    .curi h1 {
+        margin: 15px 20px;
+    }
+
+    .culum {
+        flex-wrap: wrap;
+        justify-content: flex-start; /* Left-align curriculum items */
+        padding: 20px 30px;
+        gap: 20px;
+    }
+
+    .xinkali {
+        width: calc(50% - 10px); /* Max two xinkali per row */
+    }
+
+    .xinkali h1 {
+        font-size: 24px;
+    }
+
+    .xinkali p {
+        font-size: 16px;
+    }
+}
+
+
+/* ========================================= */
+/* Media Query for Mobile (Max-width: 600px) */
+/* ========================================= */
+@media (max-width: 600px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Description Section Adjustments */
+    .fpart h2 {
+        font-size: 28px;
+    }
+
+    .spart p {
+        font-size: 14px;
+    }
+    
+    /* Card Section Adjustments */
+    .mainc {
+        padding: 15px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    /* Heading2 is already column on tablet, just reducing padding */
+    .heading2 a {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .heading2 p {
+        font-size: 14px;
+    }
+    
+    .cardz {
+        flex-direction: column; /* Stack images vertically */
+        gap: 10px;
+    }
+
+    .cardz img {
+        max-width: 100%; /* Full width for images */
+    }
+
+    /* Info Section Adjustments */
+    .info {
+        flex-direction: column; /* Stack info items */
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .info h3,
+    .info h4 {
+        width: auto; /* Auto width */
+        padding: 5px 10px;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .info h5 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /* Curriculum Section Adjustments */
+    .curi {
+        font-size: 18px;
+    }
+
+    .curi h1 {
+        margin: 10px 15px;
+    }
+
+    .culum {
+        flex-direction: column; /* Stack curriculum steps vertically */
+        align-items: flex-start;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    .xinkali {
+        width: 100%; /* Full width for each step */
+        margin-bottom: 10px;
+    }
+
+    .xinkali h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .xinkali p {
+        font-size: 14px;
+    }
+}
+
+/* 2ND PAGE  END */
