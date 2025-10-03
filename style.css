@@ -1,18 +1,1242 @@
-*{
-
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-
 }
 
 body {
-    font-family: 'Be Vietnam Pro';
+    background-color: #F7F7F8;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
 }
 
 .container {
-    max-width: 1960px;
+    max-width: 1920px;
     margin: 0 auto;
+    padding: 0 30px; /* Base padding for large screens */
+}
 
+/* -------------------- HEADER START -------------------- */
+
+.headsa {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 100px 0;
+}
+
+.zedaheader {
+    display: flex;
+    background-color: #FF9500;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    min-height: 55px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.zedaheader h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 150%;
+}
+
+.kvedaheaders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.kvedaheaders1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.kvedaheaders1 h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+    line-height: 150%;
+}
+
+.pirveladze {
+    background-color: #F1F1F3;
+    width: 100px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.kvedaheaders2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.kvedaheaders2 h3,
+.kvedaheaders2 h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kvedaheaders2 h3 {
+    background-color: #FF9500;
+    width: 117px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* -------------------- FIRST CONTAINER START -------------------- */
+
+.firstmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ucnaura {
+    width: 39px;
+    height: 43px;
+    margin-right: 0;
+    align-self: flex-start;
+}
+
+.pirvelzeda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFCFD;
+    border-radius: 11px;
+    margin-bottom: 20px;
+    gap: 10px;
+    padding: 19px 30px;
+}
+
+.pirvelzeda h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #FF9500;
+}
+
+.pirvelzeda h3 span {
+    color: #1A1A1A;
+}
+
+.pirvelzeda img {
+    width: 62px;
+    height: 62px;
+}
+
+.pirvelkveda h3 {
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.meorekveda h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.mesamekveda {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.mesamekveda a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #FF9500;
+    border-radius: 8px;
+    width: 195px;
+    height: 63px;
+    margin-bottom: 100px;
+}
+
+.mesamekveda .meorebuttoni {
+    color: #262626;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+}
+
+/* -------------------- SECOND CONTAINER (Logos) START -------------------- */
+
+.fotoebiskontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #FCFCFD;
+    width: 100%;
+    height: auto;
+    padding: 30px 15px;
+    border-radius: 12px;
+    margin-bottom: 100px;
+}
+.fotoebiskontainer img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* -------------------- BIG PHOTO START -------------------- */
+
+.solobigphoto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.solobigphoto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* -------------------- THIRD CONTAINER (Benefits) START -------------------- */
+
+.benefittitles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.benefittitles h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.benefitlowerinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.benefitlowerinfo h2 {
+    width: auto;
+    max-width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #59595A;
+}
+
+.benefitlowerinfo a {
+    color: #262626;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #FCFCFD;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 63px;
+    flex-shrink: 0;
+}
+
+.bigcontainerforcards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.benefitcard {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 48%;
+    max-width: 519px;
+    height: auto;
+    min-height: 450px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+.benefitcard h1 {
+    margin: 50px 0 0 0;
+    width: 100%;
+    text-align: right;
+    font-size: 80px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.benefitcard h2, .benefitcard h3 {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 14px 0;
+}
+.benefitcard h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.benefitcard h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C4C4D;
+    padding-bottom: 30px;
+}
+
+.benefitcard img {
+    margin: 0;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+/* -------------------- FOURTH CONTAINER (Courses) START -------------------- */
+
+.bigcoursescontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.coursecard {
+    width: 100%;
+    max-width: 783.5px;
+    height: auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.coursecard img {
+    width: 100%;
+    height: auto;
+    max-height: 380px;
+    border-radius: 8px;
+    margin: 0 0 30px 0;
+}
+
+.courseszeda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.courseszeda h4, .courseszeda h2 {
+    font-weight: 400;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    width: auto;
+    padding: 10px 15px;
+    height: 43px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #4C4C4D;
+    margin: 0;
+}
+
+.courseszeda h2 {
+    margin-right: auto;
+}
+
+.courseszeda h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #262626;
+    width: auto;
+    height: auto;
+}
+
+.courseskveda {
+    margin-left: 0;
+}
+
+.courseskveda h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 14px;
+    color: #262626;
+}
+
+.courseskveda p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C4C4D;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.courseskveda a {
+    background-color: #F7F7F8;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    width: 100%;
+    max-width: 683.5px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* -------------------- FIFTH CONTAINER (Testimonials) START -------------------- */
+
+.tipebisinfo {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prostadiv {
+    width: 100%;
+    max-width: 783.5px;
+}
+
+.zedatitle {
+    background-color: white;
+    border: 1px solid #F1F1F3;
+    width: 100%;
+    height: auto;
+    min-height: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.zedatitle h3 {
+    color: #4C4C4D;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kvedatitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    gap: 15px;
+}
+
+.kvedatitle img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.kvedatitle h3 {
+    width: auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin-right: auto;
+}
+
+.kvedatitle a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #262626;
+    padding: 10px 15px;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+/* -------------------- SIXTH CONTAINER (Pricing) START -------------------- */
+
+.ourpricingtitles {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.ourpricingtitles h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.ourpricinglowerinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ourpricinglowerinfo h2 {
+    width: auto;
+    max-width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #59595A;
+}
+
+.pricingbuttons {
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    flex-shrink: 0;
+}
+
+.pricingbuttons a {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4C4C4D;
+    height: auto;
+    width: auto;
+}
+
+.stafilosferi {
+    background-color: #FF9500;
+    border-radius: 6px;
+    color: white !important;
+}
+
+.pricing-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    background-color: white;
+    margin-bottom: 100px;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 703.5px;
+    height: auto;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px;
+    padding-bottom: 30px;
+}
+
+.pricing-header h2 {
+    width: calc(100% - 60px);
+    margin: 50px 30px 50px 30px;
+}
+
+.yvelafersurtyavs {
+    background-color: white;
+    border: 1px solid #F1F1F3;
+    width: calc(100% - 60px);
+    height: auto;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.pricing-title {
+    margin: 40px 0 30px 0;
+    font-size: 20px;
+    font-weight: 500;
+    width: calc(100% - 80px);
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: calc(100% - 80px);
+    padding-bottom: 40px;
+}
+
+.pricing-features li {
+    display: flex;
+    align-items: center;
+    border: 1px solid #F1F1F3;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+.pricing-features img {
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.iksia {
+    padding: 11px;
+    border: 1px solid #F1F1F3;
+    border-radius: 6px;
+}
+
+.pricing-btn {
+    color: white;
+    background-color: #FF9500;
+    font-size: 18px;
+    font-weight: 600;
+    width: calc(100% - 60px);
+    height: 67px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* -------------------- SEVENTH CONTAINER (FAQ) START -------------------- */
+
+.questions {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.marcxenaquestions {
+    margin: 0;
+    padding: 0 30px;
+    width: 45%;
+    max-width: 408px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.marcxenaquestions h1 {
+    width: 100%;
+    height: auto;
+    font-size: 48px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.marcxenaquestions p {
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.marcxenaquestions a {
+    width: 164px;
+    height: 63px;
+    text-align: center;
+    display: flex;
+    color: #262626;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+.marjvenaquestions {
+    margin: 0;
+    padding: 0 30px;
+    width: 55%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gaxsniliquestion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 1px solid #F1F1F3;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.gaxsniliquestion h1 {
+    width: calc(100% - 50px);
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #262626;
+}
+.gaxsniliquestion > a {
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.gaxsniliquestion hr {
+    width: 100%;
+    color: #F1F1F3;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.gaxsniliquestion h2 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #4C4C4D;
+}
+
+.ucnauriferi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.ucnauriferi h4 {
+    margin: 0;
+    width: auto;
+    max-width: calc(100% - 50px);
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    margin-right: auto;
+    padding: 5px 10px;
+}
+.ucnauriferi a {
+    flex-shrink: 0;
+}
+
+
+.daxuruliquestion1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    min-height: 80px;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px;
+    padding: 0 30px;
+}
+
+.daxuruliquestion1 h1 {
+    margin: 0;
+    width: auto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #262626;
+}
+.daxuruliquestion1 a {
+    flex-shrink: 0;
+}
+
+/* -------------------- FOOTER START -------------------- */
+
+.footerstart {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 80px 30px 20px 30px;
+    justify-content: space-between;
+}
+
+.footerleft {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 250px;
+    height: auto;
+    margin: 0 20px 40px 0;
+    gap: 15px;
+}
+
+.flogo {
+    margin-bottom: 15px;
+}
+.flogo img {
+    max-width: 120px;
+    height: auto;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7.5px;
+}
+
+.contact-item a {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-item img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.footercenter, 
+.footerright1, 
+.footerright2 {
+    width: 18%;
+    min-width: 150px;
+    height: auto;
+    margin: 0 20px 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footercenter h2, 
+.footerright1 h2, 
+.footerright2 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    margin-bottom: 14px;
+}
+
+.footercenter h3, 
+.footerright1 h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #59595A;
+    margin-bottom: 8px;
+}
+
+.footerright2 
+.social-icons {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.footerright2 img {
+    width: 24px;
+    height: 24px;
+}
+
+.footerdown {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #F1F1F3;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footerdown h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656567;
+}
+
+/* media for tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        padding: 0 20px; 
+    }
+
+    /* HEADER */
+    .kvedaheaders1 {
+        gap: 10px; /* Tighter links */
+    }
+    .kvedaheaders1 h3 {
+        font-size: 16px;
+    }
+
+    /* TYPOGRAPHY adjustments */
+    .pirvelzeda h3 {
+        font-size: 40px;
+    }
+    .pirvelkveda h3 {
+        font-size: 30px;
+    }
+    .benefittitles h1, .ourpricingtitles h1, .marcxenaquestions h1 {
+        font-size: 40px;
+    }
+    
+    /* SECOND CONTAINER (Logos) */
+    .fotoebiskontainer {
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .fotoebiskontainer img {
+        max-width: 80px;
+    }
+
+    /* BENEFITS (3rd container) */
+    .benefitlowerinfo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .benefitlowerinfo h2 {
+        max-width: 100%;
+    }
+    .bigcontainerforcards {
+        padding: 0;
+        justify-content: space-between;
+    }
+    .benefitcard {
+        width: 49%;
+        max-width: none;
+        min-height: 350px; 
+    }
+    .benefitcard h1 {
+        font-size: 60px;
+    }
+
+    /* COURSES (4th container) */
+    .bigcoursescontainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .coursecard {
+        max-width: 100%;
+    }
+    .courseszeda {
+        justify-content: flex-start;
+    }
+
+    /* TESTIMONIALS (5th container) */
+    .tipebisinfo {
+        flex-direction: column; 
+        gap: 30px;
+    }
+    .prostadiv {
+        max-width: 100%;
+    }
+    
+    /* PRICING (6th container) */
+    .ourpricinglowerinfo {
+        flex-direction: row;
+        align-items: center;
+    }
+    .ourpricinglowerinfo h2 {
+        max-width: 60%;
+    }
+    .pricing-wrapper {
+        padding: 20px;
+    }
+    .pricing-container {
+        width: 100%;
+        max-width: 48%;
+    }
+    .pricing-header h2, .yvelafersurtyavs, .pricing-btn {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* FAQ (7th container) */
+    .questions {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .marcxenaquestions, .marjvenaquestions {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    .marcxenaquestions {
+        align-items: flex-start;
+    }
+
+    /* FOOTER */
+    .footerstart {
+        justify-content: flex-start; 
+        padding: 50px 20px 20px 20px;
+    }
+    .footerleft {
+        width: 40%;
+        min-width: 300px;
+    }
+    .footercenter, .footerright1, .footerright2 {
+        width: 25%; 
+        min-width: 150px;
+        margin-right: 15px;
+    }
+}
+
+/* media for 600px */
+@media (max-width: 600px) {
+    .container {
+        padding: 0 15px; 
+    }
+    
+    /* Typography adjustments */
+    .pirvelzeda h3 {
+        font-size: 32px;
+    }
+    .pirvelkveda h3 {
+        font-size: 24px;
+    }
+    .benefittitles h1, .ourpricingtitles h1, .marcxenaquestions h1 {
+        font-size: 32px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    /* HEADER */
+    .headsa {
+        padding-bottom: 50px;
+    }
+    .kvedaheaders {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .kvedaheaders1 {
+        order: 2;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+    }
+    .kvedaheaders1 img {
+        display: none;
+    }
+    .kvedaheaders1 a h3 {
+        width: 48%;
+        height: auto;
+        padding: 10px 5px;
+        text-align: center;
+    }
+    .kvedaheaders2 {
+        order: 1;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .kvedaheaders2 h4, .kvedaheaders2 h3 {
+        width: 48%;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    /* FIRST CONTAINER */
+    .ucnaura {
+        align-self: center;
+        margin: 0 auto 20px auto;
+    }
+    .pirvelzeda, .pirvelkveda, .meorekveda {
+        width: 100%;
+    }
+    .mesamekveda {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mesamekveda a {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    /* SECOND CONTAINER (Logos) */
+    .fotoebiskontainer {
+        justify-content: center;
+        gap: 30px;
+        padding: 30px 15px;
+    }
+    .fotoebiskontainer img {
+        max-width: 80px;
+    }
+
+    /* THIRD CONTAINER (Benefits) */
+    .benefitlowerinfo {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .benefitlowerinfo h2 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .bigcontainerforcards {
+        padding: 0;
+    }
+    .benefitcard {
+        width: 100%;
+        min-height: auto;
+    }
+    
+    /* COURSES, TESTIMONIALS (4th and 5th containers) */
+    .bigcoursescontainer, .tipebisinfo {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+    .coursecard, .prostadiv {
+        width: 100%;
+    }
+    
+    /* PRICING (6th container) */
+    .ourpricinglowerinfo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourpricinglowerinfo h2 {
+        text-align: center;
+    }
+    .pricing-wrapper {
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+    .pricing-container {
+        width: 100%;
+        margin: 0;
+    }
+    .pricing-header h2, .yvelafersurtyavs, .pricing-btn {
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .pricing-features {
+        width: calc(100% - 30px);
+        padding-bottom: 20px;
+    }
+    .pricing-title {
+        width: calc(100% - 30px);
+    }
+
+    /* FAQ (7th container) */
+    .questions {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .marcxenaquestions, .marjvenaquestions {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .marcxenaquestions {
+        align-items: center;
+    }
+    .marcxenaquestions p, .marcxenaquestions a {
+        text-align: center;
+    }
+    .daxuruliquestion1 {
+        padding: 0 15px;
+    }
+    
+    /* FOOTER */
+    .footerstart {
+        flex-direction: column;
+        padding: 40px 15px 15px 15px;
+    }
+    .footerleft, 
+    .footercenter, 
+    .footerright1, 
+    .footerright2 {
+        width: 100%;
+        min-width: 100%;
+        margin: 15px 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #F1F1F3;
+    }
+    .footerdown {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
 }
