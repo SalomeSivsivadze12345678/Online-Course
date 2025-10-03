@@ -11,7 +11,7 @@ function hheadera($headerebi){
                     <a href="index.php"> <h3 class ="pirveladze">' . $headeri['secondtext'] . '</h3> </a>
                     <a href="courses.php"> <h3>' . $headeri['thirdtext'] . '</h3> </a>
                     <a href="aboutus.php"> <h3>' . $headeri['fourthtext'] . '</h3> </a>
-                    <a href="#"> <h3>' . $headeri['fifthtext'] . '</h3> </a>
+                    <a href="pricing.php"> <h3>' . $headeri['fifthtext'] . '</h3> </a>
                     <a href="#"> <h3>' . $headeri['sixthtext'] . '</h3> </a>
                 </div>
                 <div class="kvedaheaders2">
