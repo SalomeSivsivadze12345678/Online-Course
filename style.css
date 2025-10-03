@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam Pro';
+}
+
+.container {
+    max-width: 1960px;
+    margin: 0 auto;
+}
+/* salomes pirveli */
+.firstpart{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin: 0 132px 50px 132px;
+    padding-bottom: 100px;
+}
+
+.fpart h2{
+    font-size: 48px;
+    width: 748px;
+    height: 144px;
+    font-weight: 600; 
+    color: #262626;
+
+}
+
+.spart h3{
+    font-size: 18px;
+    width: 748px;
+    height: 108px;
+    font-weight: 400px; 
+    color: #59595A;
+
+}
+/* salomes pirveli THE ENDDD*/
+
+
+/* salomes CARDS*/
+
+.mainc{
+
+    width: 1596px;
+    height: 1027px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.heading{
+
+    font-weight: 600;
+    font-size: 24px;
+    color: #262626;
+
+}
+
+.heading2{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.heading2 p{
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #59595A;
+    width: 1286px;
+    height: 54px;
+
+}
+
+.heading2 a{
+
+    width: 160px;
+    height: 63px;
+    background-color: #fcfcfd;
+    border: 1px solid #f1f1f3;
+    border-radius: 8px;
+    color: #262626;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardz{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.info{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.info h3,
+.info h4{
+
+    width: 107px;
+    height: 43px;
+    
+
+}
